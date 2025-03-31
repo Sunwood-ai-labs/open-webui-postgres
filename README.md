@@ -1,15 +1,17 @@
-<h1 align="center">Open WebUI with PostgreSQL</h1>
+<div align="center">
 
-<p align="center">
+![Image](https://github.com/user-attachments/assets/6ec3c160-a607-42ec-97b9-c47a604bbd68)
+
+<h1>Open WebUI with PostgreSQL</h1>
+
 <a href="README_JP.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
 <a href="README.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
-</p>
 
-<p align="center">
 <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
 <img src="https://img.shields.io/badge/OpenWebUI-FF6B6B?style=for-the-badge&logo=html5&logoColor=white" alt="Open WebUI"/>
-</p>
+
+</div>
 
 This setup runs Open WebUI connected to a PostgreSQL database using Docker Compose.
 
