@@ -1,14 +1,25 @@
-# Open WebUI with PostgreSQL
+<h1 align="center">Open WebUI with PostgreSQL</h1>
+
+<p align="center">
+<a href="README_JP.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
+<a href="README.md"><img src="https://img.shields.io/badge/english-document-white.svg" alt="EN doc"></a>
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
+<img src="https://img.shields.io/badge/OpenWebUI-FF6B6B?style=for-the-badge&logo=html5&logoColor=white" alt="Open WebUI"/>
+</p>
 
 This setup runs Open WebUI connected to a PostgreSQL database using Docker Compose.
 
-## Components
+## 🔧 Components
 
 - **PostgreSQL**: Database server for storing Open WebUI data
 - **Ollama**: Local Large Language Model server
 - **Open WebUI**: Web interface for interacting with Ollama models
 
-## Getting Started
+## 🚀 Getting Started
 
 1. Make sure Docker and Docker Compose are installed on your system.
 2. Customize the environment variables in `docker-compose.yml` if needed.
@@ -20,7 +31,7 @@ docker-compose up -d
 
 4. Access Open WebUI by navigating to http://localhost:3000 in your browser.
 
-## Configuration
+## ⚙️ Configuration
 
 ### PostgreSQL
 
@@ -37,7 +48,7 @@ docker volume rm open-webui-postgres_postgres-data
 docker-compose up -d
 ```
 
-### Security
+### 🔒 Security
 
 For production environments, it's recommended to:
 
@@ -45,13 +56,13 @@ For production environments, it's recommended to:
 2. Replace the `WEBUI_SECRET_KEY` with a secure random string
 3. Consider using a `.env` file for sensitive configuration values
 
-## Volumes
+## 📦 Volumes
 
 - `postgres-data`: Stores PostgreSQL database files
 - `ollama-data`: Stores Ollama models and configurations
 - `open-webui-data`: Stores Open WebUI data not in the database
 
-## Troubleshooting
+## 🔍 Troubleshooting
 
 - If Open WebUI cannot connect to PostgreSQL, check the `DATABASE_URL` environment variable.
 - For PostgreSQL connection issues, you can connect directly to the database:
@@ -64,4 +75,3 @@ docker exec -it postgres psql -U openwebui -d openwebui
 
 ```bash
 docker-compose logs -f
-```
