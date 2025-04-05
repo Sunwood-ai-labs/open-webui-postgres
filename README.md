@@ -64,6 +64,14 @@ For production environments, it's recommended to:
 - `ollama-data`: Stores Ollama models and configurations
 - `open-webui-data`: Stores Open WebUI data not in the database
 
+## 🛠️ Initialization Scripts
+
+The `init-scripts` directory contains SQL scripts that are automatically executed when the PostgreSQL container is first created:
+
+- `01-init.sql`: Creates the required PostgreSQL extensions like `uuid-ossp`
+
+You can add additional initialization scripts to this directory if you need to pre-configure your database.
+
 ## 🔍 Troubleshooting
 
 - If Open WebUI cannot connect to PostgreSQL, check the `DATABASE_URL` environment variable.
