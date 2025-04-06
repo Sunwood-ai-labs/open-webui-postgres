@@ -3,7 +3,7 @@
     "memory": {
       "command": "node",
       "args": [
-        "C:\\Users\\makim\\AppData\\Roaming\\npm\\node_modules\\@modelcontextprotocol\\server-memory\\dist\\index.js"
+        "/usr/local/lib/node_modules/@modelcontextprotocol/server-memory/dist/index.js"
       ]
     },
     "time": {
