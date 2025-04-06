@@ -46,6 +46,7 @@ services:
     container_name: mcp-proxy
     volumes:
       - ./mcp:/app/mcp
+      - ./mcp/server-memory/memory.json:/usr/local/lib/node_modules/@modelcontextprotocol/server-memory/dist/memory.json
     ports:
       - "8000:8000"
     environment:
@@ -53,7 +54,7 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
-
+    tty: true
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
