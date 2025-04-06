@@ -1,0 +1,131 @@
+{"type":"entity","name":"鮭とアボカドのヘルシー丼","entityType":"レシピ","observations":["玄米ご飯に、焼いた鮭、スライスしたアボカド、キュウリ、豆苗をトッピング","ごま油、醤油、レモン汁で作った簡単なドレッシングをかける","栄養バランスが良く、良質なタンパク質と健康的な脂質が摂取できる"]}
+{"type":"entity","name":"根菜たっぷりの味噌汁","entityType":"レシピ","observations":["大根、にんじん、ごぼう、里芋などの根菜をメインに","豆腐や油揚げでタンパク質をプラス","食物繊維が豊富で、腸内環境を整える"]}
+{"type":"entity","name":"カラフル野菜の蒸し煮","entityType":"レシピ","observations":["ブロッコリー、パプリカ（赤・黄）、ナス、ズッキーニなどを軽く蒸し煮に","にんにくと生姜を加えて風味豊かに","オリーブオイルと塩こしょうでシンプルに味付け","ビタミンやミネラルが豊富で彩りも良い一品"]}
+{"type":"entity","name":"キヌアと季節の野菜のサラダ","entityType":"レシピ","observations":["キヌアを茹でて、季節の野菜（ほうれん草、ミニトマト、アボカドなど）と混ぜる","クルミやアーモンドなどのナッツ類も加えると食感と栄養価がアップ","レモン汁とオリーブオイルの簡単ドレッシングで味付け"]}
+{"type":"entity","name":"健康的な食事","entityType":"カテゴリー","observations":["バランスの良い栄養摂取が重要","タンパク質、健康的な脂質、野菜、全粒穀物などをバランス良く摂ること","自然な食材を使った手作り料理が理想的"]}
+{"type":"entity","name":"昼食メニュー_2025_04_07","entityType":"meal_plan","observations":["提案日時: 2025年4月7日 昼食","メインディッシュ: 鶏むね肉とアボカドのサラダボウル（タンパク質と良質な脂質）","トッピング: ゆで卵、プチトマト、水菜（ビタミン類と彩り）","付け合わせ: 雑穀米（食物繊維とミネラル）","汁物: コーンスープ（具だくさん）","デザート: みかん（ビタミンC補給）","特徴: 低カロリー、高タンパク、野菜たっぷり、準備時間15分、冷やして持ち運び可能"]}
+{"type":"entity","name":"朝食メニュー_2025_04_07","entityType":"meal_plan","observations":["提案日時: 2025年4月7日 朝食","メインディッシュ: オムレツ（卵2個使用、ほうれん草とチーズ入り）","付け合わせ1: 全粒粉トースト（食物繊維）","付け合わせ2: グリーンサラダ（レタス、キュウリ、プチトマト）","飲み物1: ヨーグルトスムージー（バナナ、ブルーベリー）","飲み物2: 緑茶","特徴: 高タンパク、食物繊維豊富、ビタミン・ミネラル補給、準備時間20分"]}
+{"type":"entity","name":"夕食メニュー_2025_04_06","entityType":"meal_plan","observations":["提案日時: 2025年4月6日 夕食","メインディッシュ: サバの味噌煮（タンパク質とDHA豊富）","副菜1: ほうれん草のおひたし（鉄分と食物繊維）","副菜2: きんぴらごぼう（食物繊維とミネラル）","主食: 玄米ご飯","汁物: お味噌汁（わかめと豆腐）","特徴: 和食中心、栄養バランス良好、調理時間約30分、季節の食材活用"]}
+{"type":"entity","name":"VSCode Settings","entityType":"Configuration","observations":["Visual Studio Codeのユーザー設定ファイル","テーマ、フォント、ターミナル、バックグラウンド画像など多岐にわたる設定を含む"]}
+{"type":"entity","name":"Theme Settings","entityType":"Configuration","observations":["カラーテーマ: Tokyo Hack","アイコンテーマ: catppuccin-perfect-dracula","フォント: HackGen"]}
+{"type":"entity","name":"Background Settings","entityType":"Configuration","observations":["フルスクリーン背景画像を4枚設定、opacity: 0.25","パネル背景に猫魔法シリーズの画像5枚を設定、opacity: 0.5","サイドバーに城の画像を設定、opacity: 0.3"]}
+{"type":"entity","name":"Terminal Settings","entityType":"Configuration","observations":["デフォルトプロファイル: PowerShell","画像表示有効","複数のSSHリモートプラットフォーム設定を含む"]}
+{"type":"entity","name":"Development Settings","entityType":"Configuration","observations":["Git自動フェッチ有効","Gitスマートコミット有効","ファイルネスティングパターン設定あり","MCPサーバー設定あり"]}
+{"type":"entity","name":"レシピ集","entityType":"カテゴリー","observations":["健康的な食事のためのレシピをまとめたコレクション","様々な種類の料理を含む","栄養バランスに配慮したレシピが中心"]}
+{"type":"entity","name":"食事プラン集","entityType":"カテゴリー","observations":["日付別の食事メニュー提案","朝食・昼食・夕食の具体的なメニュープラン","栄養バランスと実用性を考慮した内容"]}
+{"type":"entity","name":"VSCode設定集","entityType":"カテゴリー","observations":["Visual Studio Codeの各種設定をまとめたコレクション","テーマ、背景、ターミナル、開発設定などのカスタマイズ情報を含む","まとまった設定ファイルとして管理"]}
+{"type":"entity","name":"玄米","entityType":"食材","observations":["全粒穀物で食物繊維が豊富","精製米より低グリセミック指数","ビタミンやミネラルを多く含む"]}
+{"type":"entity","name":"鮭","entityType":"食材","observations":["良質なタンパク質を含む","DHAやEPAなどのオメガ3脂肉酸が豊富","ビタミンDの供給源"]}
+{"type":"entity","name":"アボカド","entityType":"食材","observations":["健康的な不飽和脂肪を含む","食物繊維とビタミンKが豊富","注目のスーパーフード"]}
+{"type":"entity","name":"キヌア","entityType":"食材","observations":["完全タンパク質を含む穀物","グルテンフリー","食物繊維や鉄分が豊富"]}
+{"type":"entity","name":"根菜類","entityType":"食材グループ","observations":["大根、にんじん、ごぼう、里芋などを含む","食物繊維が豊富","腸内環境を整える傷がある"]}
+{"type":"entity","name":"調理法:蒸し煮","entityType":"調理法","observations":["食材本来の風味と栄養素を保つ調理法","油を抜いたヘルシーな調理が可能","野菜の彩りを生かしやすい"]}
+{"type":"entity","name":"調理法:サラダ","entityType":"調理法","observations":["生野菜の栄養素を最大限に活用できる","多彩な食材の組み合わせが可能","ドレッシングで風味バリエーションを楽しめる"]}
+{"type":"entity","name":"調理法:味噌汁","entityType":"調理法","observations":["大豆発酵食品を使った日本の伝統的な調理法","多様な具材を活用できる汎物料理","温かい味わいで消化吉心に良い"]}
+{"type":"entity","name":"ドレッシング:オリーブオイルレモン","entityType":"調味料","observations":["オリーブオイルとレモン汁を主成分としたシンプルなドレッシング","健康的な不飽和脂肪を含む","簡単に作れてサラダや谷物料理に向いている"]}
+{"type":"entity","name":"東京ハック","entityType":"VSCodeテーマ","observations":["暗めの背景に青と紫のアクセントが特徴的","プログラミング用に最適化されたカラースキーム","日本のサイバーパンク風アートからインスピレーションを受けたデザイン"]}
+{"type":"entity","name":"豆苗","entityType":"食材","observations":["タンパク質と食物繊維が豊富","ビタミン類や鉄分を含む","朱色のアントシアニンを含む新芒"]}
+{"type":"entity","name":"キュウリ","entityType":"食材","observations":["水分が多く低カロリー","ビタミンKが豊富","清涌感とサクッとした食感が特徴"]}
+{"type":"entity","name":"ブロッコリー","entityType":"食材","observations":["ビタミンCと食物繊維が豊富","スルフォラファンを含み抗酸化作用がある","カロテノイドが豊富で目の健康に良い"]}
+{"type":"entity","name":"パプリカ","entityType":"食材","observations":["赤や黄色の鮮やかな彩りを持つ","ビタミンA、Cが豊富","カプサイシンを含み代謝を高める性質がある"]}
+{"type":"entity","name":"ナス","entityType":"食材","observations":["ポリフェノールの一種であるナスニンを含む","食物繊維が豊富で低カロリー","米なスポンジ質の食感が気測料理に適する"]}
+{"type":"entity","name":"ズッキーニ","entityType":"食材","observations":["水分が多く低カロリー","食物繊維やポタシウムが豊富","美しい緑色の見た目と突ざき食感が特徴"]}
+{"type":"entity","name":"豆腐","entityType":"食材","observations":["大豆タンパクの供給源","カルシウムや鉄分を含む","消化吉心で脂肪が少ない"]}
+{"type":"entity","name":"油揚げ","entityType":"食材","observations":["大豆タンパク質を含む加工食品","食物繊維やイソフラボンが豊富","味噌汁などの汎物に日本食の風味を加える"]}
+{"type":"entity","name":"大根","entityType":"食材","observations":["食物繊維が豊富で消化を助ける","ビタミンCやジアスターゼを含む","消炌を高めダイエットに助かる"]}
+{"type":"entity","name":"にんじん","entityType":"食材","observations":["ベータカロテンが豊富で目の健康に良い","食物繊維を含み消化を助ける","甜味の食感で料理に自然な甘みを加える"]}
+{"type":"entity","name":"ごぼう","entityType":"食材","observations":["食物繊維が豊富な根菜","ポリフェノールの一種クロロゲン酸を含む","腸内環境を整える作用がある"]}
+{"type":"entity","name":"里芋","entityType":"食材","observations":["炎計済素である食物繊維を含む","ポタシウムやビタミンB群が豊富","デンプン質とタンパク質の両方を含む"]}
+{"type":"entity","name":"にんにく","entityType":"調味料","observations":["アリシンを含み抗菌作用がある","血液循環を促進し血圧を下げる作用","香りが強く料理に風味を加える"]}
+{"type":"entity","name":"生姜","entityType":"調味料","observations":["ジンゲロールを含み消化を助ける","体を温める作用がある","東洋料理に欠かせない香辰料"]}
+{"type":"entity","name":"ごま油","entityType":"調味料","observations":["ごまから抽出された香りのある油","セサミンやセサモールなどの抗酸化物質を含む","和食やアジア料理に多用される"]}
+{"type":"entity","name":"醤油","entityType":"調味料","observations":["大豆を発酵させて作られる伝統的な調味料","日本料理の基本の味付け","ウマミ成分を含み料理の味を引き立てる"]}
+{"type":"entity","name":"レモン汁","entityType":"調味料","observations":["ビタミンCを豊富に含む","酸味を加えて料理に爽やかさをプラス","酸化防止として鯛めや果物の色変わりを防ぐ"]}
+{"type":"entity","name":"オリーブオイル","entityType":"調味料","observations":["単不飽和脂肪酸を豊富に含む健康的な油","ビタミンEやポリフェノールを含む","地中海食の基本的な調味料"]}
+{"type":"entity","name":"タンパク質","entityType":"栄養素","observations":["体の組織や筋肉を構成する基本要素","酵素やホルモンの材料となる","魚、肉、豆類、乳製品などから摂取可能"]}
+{"type":"entity","name":"食物繊維","entityType":"栄養素","observations":["消化されない植物性成分","腺内環境を整え便通改善に役立つ","全粒穀物や野菜・果物に豊富"]}
+{"type":"entity","name":"不飽和脂肪","entityType":"栄養素","observations":["常温で液体や軟らかい性状の脂肪","オメガ3やオメガ9脂肪酸を含む","心血管疾患リスクを下げる傷がある"]}
+{"type":"entity","name":"ビタミン類","entityType":"栄養素","observations":["少量で体の色々な機能を調整する必須栄養素","水溶性ビタミンと脂溶性ビタミンがある","野菜や果物に豊富に含まれる"]}
+{"type":"entity","name":"ミネラル","entityType":"栄養素","observations":["体の機能を正常に保つミクロ栄養素","カルシウム、鉄、亜鉛、マグネシウムなどが含まれる","骨や歯の形成やその他の代謝プロセスに必要"]}
+{"type":"entity","name":"HackGen","entityType":"VSCodeフォント","observations":["プログラミング用に最適化された日本語対応フォント","英数字が等幅で設計されている","半角カナと全角カナの差が明確"]}
+{"type":"entity","name":"catppuccin-perfect-dracula","entityType":"VSCodeアイコンテーマ","observations":["ドラキュラカラーをベースにした漢馬アイコンテーマ","薄暗い色合いと鮮やかなアクセントカラーの組み合わせ","フォルダアイコンやファイルタイプアイコンが美しく設計されている"]}
+{"type":"entity","name":"和食レシピ","entityType":"料理ジャンル","observations":["日本の伝統的な食材と調理法を使用","味噌汁、煙、焼き魚などが主な構成要素","季節の食材を大切にし、五味を重視"]}
+{"type":"entity","name":"地中海式レシピ","entityType":"料理ジャンル","observations":["オリーブオイル、野菜、豊富なハーブが特徴","魚介類や豆類が豊富に使われる","シンプルな調理法で食材本来の味を生かす"]}
+{"type":"entity","name":"フュージョンレシピ","entityType":"料理ジャンル","observations":["複数の料理業態や文化を組み合わせた特徴たった料理概念","伝統的な要素と新しいテクニックを融合","东西のバランスを取り入れたクリエイティブなレシピ"]}
+{"type":"entity","name":"筋トレメニュー","description":"以下は全身をバランスよく鍛えられる一例の筋トレメニューです。\n\n【ウォームアップ】（約5～10分）\n・軽いジョギング、または縄跳び\n・ダイナミックストレッチ（腕、脚、体幹を中心に）\n\n──────────────────────────\n【メインメニュー】\n\n1. スクワット（下半身＋体幹）\n　・例: 3セット × 10～15回\n　※フォームを重視。膝がつま先より前に出ないよう意識して。\n\n2. ベンチプレスまたはプッシュアップ（胸・上腕三頭筋・肩）\n　・ウェイトが使える場合: 3セット × 8～12回\n　・自重の場合: 3セット × 15～20回\n\n3. 懸垂またはラットプルダウン（背中・上腕二頭筋）\n　・懸垂が難しい場合は、アシスト付きマシンやラットプルダウンで代用\n　・3セット × 6～10回（難易度に合わせて調整）\n\n4. ダンベルロウ（背中・肩）\n　・左右各3セット × 10～12回\n\n5. ダンベルランジ（下半身・バランス）\n　・左右交互に 3セット × 10回ずつ\n　※背筋を伸ばしながら、足を大きく踏み出して行う。\n\n6. プランク（体幹）\n　・3セット × 30～60秒\n　※お腹に力を入れ、腰が落ちないよう維持することを意識。\n\n──────────────────────────\n【クールダウン】（約5～10分）\n・ウォーキングや軽いジョギングで心拍数を徐々に下げる\n・静的ストレッチ：各筋群をしっかり伸ばし、リカバリーを促す\n\n──────────────────────────\n※ メニューのポイント\n・初心者の方は無理のない重量・回数から開始し、徐々に負荷を上げること\n・正しいフォームで行うことを重視し、動画やトレーナーによるアドバイスがあれば積極的に取り入れる\n・トレーニング後は十分な水分補給と栄養補給も忘れずに行い、翌日の筋肉の回復に努める"}
+{"type":"relation","from":"鮭とアボカドのヘルシー丼","relationType":"分類される","to":"健康的な食事"}
+{"type":"relation","from":"根菜たっぷりの味噌汁","relationType":"分類される","to":"健康的な食事"}
+{"type":"relation","from":"カラフル野菜の蒸し煮","relationType":"分類される","to":"健康的な食事"}
+{"type":"relation","from":"キヌアと季節の野菜のサラダ","relationType":"分類される","to":"健康的な食事"}
+{"type":"relation","from":"VSCode Settings","to":"Theme Settings","relationType":"contains"}
+{"type":"relation","from":"VSCode Settings","to":"Background Settings","relationType":"contains"}
+{"type":"relation","from":"VSCode Settings","to":"Terminal Settings","relationType":"contains"}
+{"type":"relation","from":"VSCode Settings","to":"Development Settings","relationType":"contains"}
+{"type":"relation","from":"Theme Settings","to":"Background Settings","relationType":"complements"}
+{"type":"relation","from":"Development Settings","to":"Terminal Settings","relationType":"uses"}
+{"type":"relation","from":"健康的な食事","to":"レシピ集","relationType":"関連する"}
+{"type":"relation","from":"レシピ集","to":"鮭とアボカドのヘルシー丼","relationType":"含む"}
+{"type":"relation","from":"レシピ集","to":"根菜たっぷりの味噌汁","relationType":"含む"}
+{"type":"relation","from":"レシピ集","to":"カラフル野菜の蒸し煮","relationType":"含む"}
+{"type":"relation","from":"レシピ集","to":"キヌアと季節の野菜のサラダ","relationType":"含む"}
+{"type":"relation","from":"食事プラン集","to":"朝食メニュー_2025_04_07","relationType":"含む"}
+{"type":"relation","from":"食事プラン集","to":"昼食メニュー_2025_04_07","relationType":"含む"}
+{"type":"relation","from":"食事プラン集","to":"夕食メニュー_2025_04_06","relationType":"含む"}
+{"type":"relation","from":"健康的な食事","to":"食事プラン集","relationType":"関連する"}
+{"type":"relation","from":"VSCode設定集","to":"VSCode Settings","relationType":"含む"}
+{"type":"relation","from":"VSCode Settings","to":"Theme Settings","relationType":"含む"}
+{"type":"relation","from":"VSCode Settings","to":"Background Settings","relationType":"含む"}
+{"type":"relation","from":"VSCode Settings","to":"Terminal Settings","relationType":"含む"}
+{"type":"relation","from":"VSCode Settings","to":"Development Settings","relationType":"含む"}
+{"type":"relation","from":"鮭とアボカドのヘルシー丼","to":"鮭","relationType":"使用する"}
+{"type":"relation","from":"鮭とアボカドのヘルシー丼","to":"アボカド","relationType":"使用する"}
+{"type":"relation","from":"鮭とアボカドのヘルシー丼","to":"玄米","relationType":"使用する"}
+{"type":"relation","from":"鮭とアボカドのヘルシー丼","to":"ドレッシング:オリーブオイルレモン","relationType":"使用する"}
+{"type":"relation","from":"キヌアと季節の野菜のサラダ","to":"キヌア","relationType":"使用する"}
+{"type":"relation","from":"キヌアと季節の野菜のサラダ","to":"調理法:サラダ","relationType":"適用する"}
+{"type":"relation","from":"キヌアと季節の野菜のサラダ","to":"ドレッシング:オリーブオイルレモン","relationType":"使用する"}
+{"type":"relation","from":"根菜たっぷりの味噌汁","to":"根菜類","relationType":"使用する"}
+{"type":"relation","from":"根菜たっぷりの味噌汁","to":"調理法:味噌汁","relationType":"適用する"}
+{"type":"relation","from":"カラフル野菜の蒸し煮","to":"調理法:蒸し煮","relationType":"適用する"}
+{"type":"relation","from":"Theme Settings","to":"東京ハック","relationType":"使用する"}
+{"type":"relation","to":"タンパク質","from":"鮭","relationType":"含む"}
+{"type":"relation","to":"不飽和脂肪","from":"アボカド","relationType":"含む"}
+{"type":"relation","to":"食物繊維","from":"玄米","relationType":"含む"}
+{"type":"relation","to":"ミネラル","from":"玄米","relationType":"含む"}
+{"type":"relation","to":"食物繊維","from":"キヌア","relationType":"含む"}
+{"type":"relation","to":"食物繊維","from":"根菜類","relationType":"含む"}
+{"type":"relation","to":"ビタミン類","from":"ブロッコリー","relationType":"含む"}
+{"type":"relation","to":"ビタミン類","from":"パプリカ","relationType":"含む"}
+{"type":"relation","to":"タンパク質","from":"豆腐","relationType":"含む"}
+{"type":"relation","to":"タンパク質","from":"豆苗","relationType":"含む"}
+{"type":"relation","to":"豆苗","from":"鮭とアボカドのヘルシー丼","relationType":"使用する"}
+{"type":"relation","to":"キュウリ","from":"鮭とアボカドのヘルシー丼","relationType":"使用する"}
+{"type":"relation","to":"にんにく","from":"カラフル野菜の蒸し煮","relationType":"使用する"}
+{"type":"relation","to":"生姜","from":"カラフル野菜の蒸し煮","relationType":"使用する"}
+{"type":"relation","to":"オリーブオイル","from":"カラフル野菜の蒸し煮","relationType":"使用する"}
+{"type":"relation","to":"ブロッコリー","from":"カラフル野菜の蒸し煮","relationType":"使用する"}
+{"type":"relation","to":"パプリカ","from":"カラフル野菜の蒸し煮","relationType":"使用する"}
+{"type":"relation","to":"ナス","from":"カラフル野菜の蒸し煮","relationType":"使用する"}
+{"type":"relation","to":"ズッキーニ","from":"カラフル野菜の蒸し煮","relationType":"使用する"}
+{"type":"relation","to":"大根","from":"根菜類","relationType":"含む"}
+{"type":"relation","to":"にんじん","from":"根菜類","relationType":"含む"}
+{"type":"relation","to":"ごぼう","from":"根菜類","relationType":"含む"}
+{"type":"relation","to":"里芋","from":"根菜類","relationType":"含む"}
+{"type":"relation","to":"豆腐","from":"根菜たっぷりの味噌汁","relationType":"使用する"}
+{"type":"relation","to":"油揚げ","from":"根菜たっぷりの味噌汁","relationType":"使用する"}
+{"type":"relation","to":"HackGen","from":"Theme Settings","relationType":"使用する"}
+{"type":"relation","to":"catppuccin-perfect-dracula","from":"Theme Settings","relationType":"使用する"}
+{"type":"relation","to":"オリーブオイル","from":"ドレッシング:オリーブオイルレモン","relationType":"含む"}
+{"type":"relation","to":"レモン汁","from":"ドレッシング:オリーブオイルレモン","relationType":"含む"}
+{"type":"relation","to":"ごま油","from":"鮭とアボカドのヘルシー丼","relationType":"使用する"}
+{"type":"relation","to":"醤油","from":"鮭とアボカドのヘルシー丼","relationType":"使用する"}
+{"type":"relation","to":"レモン汁","from":"鮭とアボカドのヘルシー丼","relationType":"使用する"}
+{"type":"relation","to":"和食レシピ","from":"根菜たっぷりの味噌汁","relationType":"分類される"}
+{"type":"relation","to":"地中海式レシピ","from":"カラフル野菜の蒸し煮","relationType":"分類される"}
+{"type":"relation","to":"地中海式レシピ","from":"キヌアと季節の野菜のサラダ","relationType":"分類される"}
+{"type":"relation","to":"ミネラル","from":"キヌア","relationType":"含む"}
+{"type":"relation","to":"ビタミン類","from":"レモン汁","relationType":"含む"}
+{"type":"relation","to":"和食レシピ","from":"レシピ集","relationType":"含む"}
+{"type":"relation","to":"地中海式レシピ","from":"レシピ集","relationType":"含む"}
+{"type":"relation","to":"フュージョンレシピ","from":"鮭とアボカドのヘルシー丼","relationType":"分類される"}
+{"type":"relation","to":"フュージョンレシピ","from":"レシピ集","relationType":"含む"}
