@@ -91,4 +91,42 @@ docker-compose up -d
 
 ## 📝 初期化スクリプト
 
+## 🌟 MCP (Model Context Protocol) サポート
+
+このリポジトリには、以下のMCPツールが統合されています：
+
+- Memory Server: コンテキストやメモリの管理用
+- Time Server: 時刻関連の機能用
+
+### 🔧 MCPの設定
+
+1. 環境変数の設定：
+   - `.env`ファイル内で`MCP_API_KEY`を設定
+   ```env
+   MCP_API_KEY=your-secure-api-key
+   ```
+
+2. MCPサーバーの設定：
+   - `mcp/settings.json`でMCPサーバーを設定
+   - デフォルトで以下のサーバーが有効：
+     - Memory Server
+     - Time Server
+
+### 🚀 使用方法
+
+1. サービスの起動：
+   ```bash
+   docker-compose up -d
+   ```
+
+2. MCPプロキシの確認：
+   - OpenAPI ドキュメント: http://localhost:8000/docs
+   - 各MCPツールは個別のエンドポイントで利用可能：
+     - Memory Server: http://localhost:8000/memory
+     - Time Server: http://localhost:8000/time
+
+3. セキュリティ：
+   - 本番環境では必ず`MCP_API_KEY`を安全な値に変更してください
+   - APIキーは環境変数として設定され、MCPプロキシとOpen WebUI間の通信を保護します
+
 `init-scripts`ディレクトリには、PostgreSQLの初回起動時に実行されるSQLスクリプトが含まれています。必要に応じてカスタムスキーマやデータを追加できます。

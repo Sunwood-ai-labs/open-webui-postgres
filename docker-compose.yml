@@ -39,6 +39,21 @@ services:
     restart: unless-stopped
     image: ollama/ollama:${OLLAMA_DOCKER_TAG}
 
+  mcp-proxy:
+    build:
+      context: ./mcp
+      dockerfile: Dockerfile
+    container_name: mcp-proxy
+    volumes:
+      - ./mcp:/app/mcp
+    ports:
+      - "8000:8000"
+    environment:
+      - MCP_API_KEY=change-me-in-production
+    depends_on:
+      postgres:
+        condition: service_healthy
+
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
     container_name: open-webui
@@ -49,12 +64,16 @@ services:
         condition: service_healthy
       ollama:
         condition: service_started
+      mcp-proxy:
+        condition: service_started
     ports:
       - "3000:8080"
     environment:
       - OLLAMA_BASE_URL=http://ollama:11434
       - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
       - WEBUI_SECRET_KEY=${WEBUI_SECRET_KEY}
+      - MCP_PROXY_URL=http://mcp-proxy:8000
+      - MCP_API_KEY=change-me-in-production
     extra_hosts:
       - host.docker.internal:host-gateway
     restart: unless-stopped
