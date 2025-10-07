@@ -11,7 +11,7 @@ services:
       - postgres-data:/var/lib/postgresql/data
       - ./init-scripts:/docker-entrypoint-initdb.d
     ports:
-      - "5432:5432"
+      - "5434:5432"
     healthcheck:
       test: ["CMD", "pg_isready", "-d", "openwebui", "-U", "openwebui"]
       interval: 10s
@@ -31,13 +31,13 @@ services:
       - postgres
 
   ollama:
-    volumes:
-      - ollama-data:/root/.ollama
+    image: ollama/ollama:${OLLAMA_DOCKER_TAG}
     container_name: ollama
     pull_policy: always
     tty: true
     restart: unless-stopped
-    image: ollama/ollama:${OLLAMA_DOCKER_TAG}
+    volumes:
+      - ollama-data:/root/.ollama
 
   mcp-proxy:
     build:
@@ -57,29 +57,60 @@ services:
     tty: true
   open-webui:
     image: ghcr.io/open-webui/open-webui:main
-    container_name: open-webui
+    restart: unless-stopped
+    ports:
+      - "3000:8080"
     volumes:
       - open-webui-data:/app/backend/data
+      - ./:/workspace
     depends_on:
       postgres:
         condition: service_healthy
       ollama:
         condition: service_started
-      mcp-proxy:
-        condition: service_started
-    ports:
-      - "3000:8080"
     environment:
       - OLLAMA_BASE_URL=http://ollama:11434
       - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
       - WEBUI_SECRET_KEY=${WEBUI_SECRET_KEY}
-      - MCP_PROXY_URL=http://mcp-proxy:8000
-      - MCP_API_KEY=change-me-in-production
+      - ENV=dev
+
+      # Tool 用（必要なら）
+      - LLM_SERVICE_API_KEY=${LLM_SERVICE_API_KEY}
+      - LLM_SERVICE_API_BASE=${LLM_SERVICE_API_BASE}   # /api or /v1 まで含めた完成形
+      - LLM_SERVICE_MODEL=${LLM_SERVICE_MODEL}
+
     extra_hosts:
       - host.docker.internal:host-gateway
+
+  open-webui-api:
+    image: ghcr.io/open-webui/open-webui:main
     restart: unless-stopped
+    ports:
+      - "3002:8080"
+    volumes:
+      - open-webui-data:/app/backend/data
+      - ./:/workspace
+    depends_on:
+      postgres:
+        condition: service_healthy
+      ollama:
+        condition: service_started
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      - WEBUI_SECRET_KEY=${WEBUI_SECRET_KEY}
+      - ENV=dev
+
+      # Tool 用（必要なら）
+      - LLM_SERVICE_API_KEY=${LLM_SERVICE_API_KEY}
+      - LLM_SERVICE_API_BASE=${LLM_SERVICE_API_BASE}   # /api or /v1 まで含めた完成形
+      - LLM_SERVICE_MODEL=${LLM_SERVICE_MODEL}
+
+    extra_hosts:
+      - host.docker.internal:host-gateway
 
 volumes:
   postgres-data: {}
   ollama-data: {}
   open-webui-data: {}
+  # redis-data: {}   # Redis 永続化したい場合のみ有効化
